@@ -11,8 +11,9 @@ class ViewController: UIViewController {
     
     //MARK: - Properties
     
-    private let profileView = ProfileView()
-    private let skillsView = SkillsView()
+    private lazy var profileView = ProfileView()
+    private lazy var skillsView = SkillsView()
+    private lazy var aboutMeView = AboutMeView()
     
     
     //MARK: - Methods
@@ -27,6 +28,7 @@ class ViewController: UIViewController {
     private func setupElements() {
         view.addSubview(profileView)
         view.addSubview(skillsView)
+        view.addSubview(aboutMeView)
     }
     
     private func setupConstraints() {
@@ -38,7 +40,12 @@ class ViewController: UIViewController {
             skillsView.topAnchor.constraint(equalTo: profileView.bottomAnchor),
             skillsView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             skillsView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            skillsView.heightAnchor.constraint(equalToConstant: 300)
+            skillsView.heightAnchor.constraint(equalToConstant: 300),
+            
+            aboutMeView.topAnchor.constraint(equalTo: skillsView.bottomAnchor),
+            aboutMeView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            aboutMeView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            aboutMeView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
         ])
     }
 }
