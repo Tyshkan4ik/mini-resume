@@ -98,6 +98,7 @@ class ProfileView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        backgroundColor = UIColor(hex: "F3F3F5")
         setupElements()
         setupConstraints()
         translatesAutoresizingMaskIntoConstraints = false
