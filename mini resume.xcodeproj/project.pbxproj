@@ -12,6 +12,7 @@
 		8189CC3A2A78EB1600DF6FD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8189CC392A78EB1600DF6FD3 /* ViewController.swift */; };
 		8189CC3F2A78EB1800DF6FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8189CC3E2A78EB1800DF6FD3 /* Assets.xcassets */; };
 		8189CC422A78EB1800DF6FD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8189CC402A78EB1800DF6FD3 /* LaunchScreen.storyboard */; };
+		8189CC4B2A7903C600DF6FD3 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8189CC4A2A7903C600DF6FD3 /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8189CC3E2A78EB1800DF6FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8189CC412A78EB1800DF6FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8189CC432A78EB1800DF6FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8189CC4A2A7903C600DF6FD3 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +59,20 @@
 				8189CC352A78EB1600DF6FD3 /* AppDelegate.swift */,
 				8189CC372A78EB1600DF6FD3 /* SceneDelegate.swift */,
 				8189CC392A78EB1600DF6FD3 /* ViewController.swift */,
+				8189CC492A79039E00DF6FD3 /* Extension */,
 				8189CC3E2A78EB1800DF6FD3 /* Assets.xcassets */,
 				8189CC402A78EB1800DF6FD3 /* LaunchScreen.storyboard */,
 				8189CC432A78EB1800DF6FD3 /* Info.plist */,
 			);
 			path = "mini resume";
+			sourceTree = "<group>";
+		};
+		8189CC492A79039E00DF6FD3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8189CC4A2A7903C600DF6FD3 /* UIColor.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8189CC3A2A78EB1600DF6FD3 /* ViewController.swift in Sources */,
+				8189CC4B2A7903C600DF6FD3 /* UIColor.swift in Sources */,
 				8189CC362A78EB1600DF6FD3 /* AppDelegate.swift in Sources */,
 				8189CC382A78EB1600DF6FD3 /* SceneDelegate.swift in Sources */,
 			);
@@ -281,7 +293,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +320,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
