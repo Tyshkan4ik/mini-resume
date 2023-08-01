@@ -26,11 +26,10 @@ class SkillsView: UIView {
     private var array: [SkillsCellModel] = []
     
     private let headerLabel: UILabel = {
-       let label = UILabel()
+        let label = UILabel()
         label.text = Constants.headerText
         label.textColor = UIColor(hex: "313131")
         label.font = UIFont.boldSystemFont(ofSize: 16)
-        //label.textAlignment = .center
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -129,7 +128,6 @@ class SkillsView: UIView {
         } else {
             array.removeLast()
         }
-        
         collectionView.reloadData()
     }
     
@@ -192,4 +190,3 @@ extension SkillsView: SkillsCellDelegate {
         collectionView.reloadData()
     }
 }
-

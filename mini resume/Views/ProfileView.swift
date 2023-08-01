@@ -18,7 +18,7 @@ class ProfileView: UIView {
     }
     
     private let headerLabel: UILabel = {
-       let label = UILabel()
+        let label = UILabel()
         label.text = Constants.headerText
         label.textColor = UIColor(hex: "313131")
         label.font = UIFont.boldSystemFont(ofSize: 16)
@@ -37,7 +37,7 @@ class ProfileView: UIView {
     }()
     
     private let namePeopleLabel: UILabel = {
-       let label = UILabel()
+        let label = UILabel()
         label.text = "Троицкий Виталий Александрович"
         label.textColor = UIColor(hex: "313131")
         label.font = UIFont.boldSystemFont(ofSize: 24)
@@ -48,7 +48,7 @@ class ProfileView: UIView {
     }()
     
     private let shortDescriptionLabel: UILabel = {
-       let label = UILabel()
+        let label = UILabel()
         label.text = "Junior iOS-разработчик, опыт более 1 года"
         label.textColor = UIColor(hex: "96959B")
         label.font = UIFont.boldSystemFont(ofSize: 14)
@@ -76,7 +76,7 @@ class ProfileView: UIView {
     }()
     
     private let cityLabel: UILabel = {
-       let label = UILabel()
+        let label = UILabel()
         label.text = "Санкт-Петербург"
         label.textColor = UIColor(hex: "96959B")
         label.font = UIFont.boldSystemFont(ofSize: 14)
@@ -88,9 +88,6 @@ class ProfileView: UIView {
     private let locationIcon: UIImageView = {
         let image = UIImage(named: "locationIcon")
         let imageView = UIImageView(image: image)
-        //imageView.frame = CGRect(x: 0, y: 0, width: 5, height: 5)
-        //imageView.contentMode = .scaleAspectFit
-        
         return imageView
     }()
     
@@ -115,7 +112,7 @@ class ProfileView: UIView {
         addSubview(avatarView)
         addSubview(namePeopleLabel)
         addSubview(shortDescriptionLabel)
-
+        
         addSubview(stackLocation)
         stackLocation.addArrangedSubview(locationIcon)
         stackLocation.addArrangedSubview(cityLabel)

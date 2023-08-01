@@ -28,7 +28,7 @@ class SkillsCell: UICollectionViewCell {
     }
     
     private let stackView: UIStackView = {
-       let stackView = UIStackView()
+        let stackView = UIStackView()
         stackView.axis = .horizontal
         stackView.spacing = 10
         stackView.translatesAutoresizingMaskIntoConstraints = false
@@ -39,7 +39,6 @@ class SkillsCell: UICollectionViewCell {
         let label = UILabel()
         label.textColor = UIColor(hex: "313131")
         label.font = UIFont.boldSystemFont(ofSize: 14)
-//        label.textAlignment = .center
         return label
     }()
     
@@ -98,4 +97,3 @@ class SkillsCell: UICollectionViewCell {
         }
     }
 }
-

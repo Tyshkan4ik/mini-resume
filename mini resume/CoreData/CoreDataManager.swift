@@ -30,7 +30,7 @@ final class CoreDataManager {
             }
         })
     }
-
+    
     func getMessages(completion: @escaping ([DBSkill]) -> Void) {
         context.perform { [weak self] in
             guard let self = self else { return }

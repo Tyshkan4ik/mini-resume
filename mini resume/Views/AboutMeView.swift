@@ -18,7 +18,7 @@ class AboutMeView: UIView {
     }
     
     private let headerLabel: UILabel = {
-       let label = UILabel()
+        let label = UILabel()
         label.text = Constants.headerText
         label.textColor = UIColor(hex: "313131")
         label.font = UIFont.boldSystemFont(ofSize: 16)
@@ -27,7 +27,7 @@ class AboutMeView: UIView {
     }()
     
     private let descriptionLabel: UILabel = {
-       let label = UILabel()
+        let label = UILabel()
         label.text = "Experienced software engineer skilled in developing scalable and maintainable systems"
         label.textColor = UIColor(hex: "313131")
         label.font = UIFont.boldSystemFont(ofSize: 14)
@@ -67,8 +67,6 @@ class AboutMeView: UIView {
             descriptionLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16),
             descriptionLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16),
             descriptionLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -24)
-            
         ])
     }
 }
-

@@ -19,7 +19,6 @@ final class CustomViewFlowLayout: UICollectionViewFlowLayout {
         var leftMargin = sectionInset.left
         var maxY: CGFloat = -1.0
         
-        
         attributes?.forEach { layoutAttribute in
             if layoutAttribute.frame.origin.y >= maxY {
                 leftMargin = sectionInset.left
