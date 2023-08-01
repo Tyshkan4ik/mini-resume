@@ -16,6 +16,8 @@
 		8189CC522A7904B100DF6FD3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8189CC512A7904B100DF6FD3 /* ProfileView.swift */; };
 		8189CC742A7959E300DF6FD3 /* SkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8189CC732A7959E300DF6FD3 /* SkillsView.swift */; };
 		8189CC792A795FB100DF6FD3 /* AboutMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8189CC782A795FB100DF6FD3 /* AboutMeView.swift */; };
+		8189CC7C2A79674400DF6FD3 /* CellForCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8189CC7B2A79674400DF6FD3 /* CellForCollection.swift */; };
+		8189CC7F2A7987AF00DF6FD3 /* CustomViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8189CC7E2A7987AF00DF6FD3 /* CustomViewFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		8189CC512A7904B100DF6FD3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		8189CC732A7959E300DF6FD3 /* SkillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsView.swift; sourceTree = "<group>"; };
 		8189CC782A795FB100DF6FD3 /* AboutMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeView.swift; sourceTree = "<group>"; };
+		8189CC7B2A79674400DF6FD3 /* CellForCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForCollection.swift; sourceTree = "<group>"; };
+		8189CC7E2A7987AF00DF6FD3 /* CustomViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +92,9 @@
 			isa = PBXGroup;
 			children = (
 				8189CC512A7904B100DF6FD3 /* ProfileView.swift */,
-				8189CC732A7959E300DF6FD3 /* SkillsView.swift */,
 				8189CC782A795FB100DF6FD3 /* AboutMeView.swift */,
+				8189CC7D2A79878F00DF6FD3 /* SkillsView */,
+				8189CC7A2A79672900DF6FD3 /* Cells */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -106,6 +111,23 @@
 			children = (
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8189CC7A2A79672900DF6FD3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8189CC7B2A79674400DF6FD3 /* CellForCollection.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8189CC7D2A79878F00DF6FD3 /* SkillsView */ = {
+			isa = PBXGroup;
+			children = (
+				8189CC732A7959E300DF6FD3 /* SkillsView.swift */,
+				8189CC7E2A7987AF00DF6FD3 /* CustomViewFlowLayout.swift */,
+			);
+			path = SkillsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,8 +205,10 @@
 				8189CC4B2A7903C600DF6FD3 /* UIColor.swift in Sources */,
 				8189CC522A7904B100DF6FD3 /* ProfileView.swift in Sources */,
 				8189CC362A78EB1600DF6FD3 /* AppDelegate.swift in Sources */,
+				8189CC7C2A79674400DF6FD3 /* CellForCollection.swift in Sources */,
 				8189CC792A795FB100DF6FD3 /* AboutMeView.swift in Sources */,
 				8189CC382A78EB1600DF6FD3 /* SceneDelegate.swift in Sources */,
+				8189CC7F2A7987AF00DF6FD3 /* CustomViewFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
